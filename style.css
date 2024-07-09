@@ -24,8 +24,18 @@ header nav {
     padding: 0 1em;
 }
 
-header nav h1 {
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    margin-right: 10px;
+}
+
+.logo-container h1 {
     margin: 0;
+    font-size: 1.5em;
 }
 
 header nav ul {
